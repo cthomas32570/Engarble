@@ -24,5 +24,15 @@ namespace Engarble
         {
             InitializeComponent();
         }
+
+        private void fileSelect_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void submitButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
