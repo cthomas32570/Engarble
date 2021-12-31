@@ -18,7 +18,7 @@ internal static class Engarbler
         {
             fileBin[i] = ComputeByte(fileBin[i], hashBin[hashByte]);
 
-            if (hashByte == 63)
+            if (hashByte < 63)
                 hashByte++;
             else
                 hashByte = 0;
